@@ -116,7 +116,7 @@ public class SchemaClass {
                             long milliSecconds = Long.parseLong(words[1]);
                             Date date = new Date(milliSecconds);
 
-                            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+                            SimpleDateFormat formatter = new SimpleDateFormat("yyyy.MM.dd  HH.mm.ss");
                             strDate = formatter.format(date);
 
                         }
